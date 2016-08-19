@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Mascotas</string>
+    <string name="nombre">Sandokan</string>
+    <string name="tipo_mascota">Leon</string>
+    <string name="favorito">SI</string>
+    <string name="pnombre">Nombre: </string>
+    <string name="ptipomascota">Tipo Mascota: </string>
+    <string name="pfavorito">Favorito: </string>
+    <string name="pemail">Email: </string>
+    <string name="pasunto">Asunto: </string>
+    <string name="pmensaje">Mensaje: </string>
+    <string name="enviar_comentario">Enviar Comentario</string>
+    <string name="menu_contact">Contacto</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="plikes">0</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

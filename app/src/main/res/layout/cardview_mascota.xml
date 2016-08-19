@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvMascota"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    card_view:cardCornerRadius="@dimen/corner_radius_card"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryLight"
+        android:padding="@dimen/activity_horizontal_margin"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/anchoimagen"
+            android:layout_height="@dimen/altoimagen"
+            android:id="@+id/imgFoto"
+            android:src="@drawable/img1"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margenesp"
+            android:gravity="center"
+            >
+
+            <ImageButton
+                android:id="@+id/btnHuesoBlanco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hueso"
+                android:layout_marginRight="@dimen/margender"
+                android:background="@android:color/transparent"
+                android:layout_alignParentLeft="true"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvNombreMascota"
+                    android:text="Mascota1"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvFavorito"
+                    android:text="@string/plikes"
+                    android:textSize="20dp"
+                    android:layout_alignParentRight="true"
+                    />
+
+                <ImageButton
+                    android:id="@+id/btnHuesoAmarillo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/huesofav"
+                    android:layout_marginLeft="@dimen/margenesp"
+                    android:background="@android:color/transparent"
+                    android:layout_alignParentRight="true"
+                    />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+
+
+    <!--LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryLight"
+        android:padding="@dimen/activity_horizontal_margin"
+        >
+
+        <ImageView
+            android:id="@+id/imgFoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img1"/>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/left"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgFoto"
+            android:paddingTop="@dimen/left"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnHuesoBlanco"
+                android:gravity="center_vertical"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/huesoblanco"
+                />
+
+            <TextView
+                android:id="@+id/tvNombreMascota"
+                android:text="Mascota1"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:text="Mascota1"
+                android:textColor="@color/colorPrimaryText"
+                />
+
+            <TextView
+                android:id="@+id/tvFavorito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="35dp"
+                android:text="0"
+                android:textColor="@color/colorPrimaryText"
+                />
+
+            <ImageButton
+                android:id="@+id/btnHuesoAmarillo"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/huesoamarillo"
+                />
+        </LinearLayout>
+    </LinearLayout-->
+</android.support.v7.widget.CardView>

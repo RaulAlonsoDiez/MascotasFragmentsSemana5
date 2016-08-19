@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nombre_mascota">35dp</dimen>
+    <dimen name="tipo_mascota">20sp</dimen>
+    <dimen name="top">20sp</dimen>
+    <dimen name="left">10dp</dimen>
+    <dimen name="corner_radius_card">4dp</dimen>
+    <dimen name="nombre_carview">20sp</dimen>
+    <dimen name="elevacion_actionbar">4dp</dimen>
+    <dimen name="anchoimagen">300dp</dimen>
+    <dimen name="altoimagen">200dp</dimen>
+    <dimen name="margender">50dp</dimen>
+    <dimen name="margenizq">50dp</dimen>
+    <dimen name="margenesp">10dp</dimen>
+    <dimen name="ancho_img_grid">90dp</dimen>
+    <dimen name="alto_img_grid">90dp</dimen>
+</resources>
